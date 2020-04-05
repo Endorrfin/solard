@@ -1,9 +1,9 @@
 
 <nav class="navbar">
-  <h1><a [routerLink]="['/']">Solard company</a></h1>
+  <h1><a [routerLink]="['/']">Solard консалтинг</a></h1>
 
   <ul>
-    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']">Home</a></li>
+    <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']">О нас</a></li>
     <li routerLinkActive="active"><a [routerLink]="'/our-services'">Наши услуги</a></li>
     <li routerLinkActive="active"><a [routerLink]="['/career']">Карьера</a></li>
     <li routerLinkActive="active"><a [routerLink]="['/contacts']">Контакты</a></li>
@@ -15,7 +15,6 @@
 
 <div class="container">
   <div class="card">
-
     <router-outlet></router-outlet>
   </div>
 </div>
