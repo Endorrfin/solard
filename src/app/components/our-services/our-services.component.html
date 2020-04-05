@@ -1,1 +1,12 @@
-<p>our-services works!</p>
+<h1>Наши услуги</h1>
+
+<button class="btn">
+  Show Ids
+</button>
+<button class="btn">
+  Show Ids (program)
+</button>
+
+<div class="card" *ngFor="let post of servicesService.posts">
+  <h4><a href="#"><strong>(ID {{post.id}})</strong>{{post.title}}</a></h4>
+</div>
